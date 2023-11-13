@@ -1,0 +1,9 @@
+n=eval(input("DAti valori n:"))
+fact=1
+i=1
+s=0
+while i<=n:
+    fact *=i
+    s+=fact
+    i+=1
+print("1!+2!+3!+4!+5!+...+",n,"!= ", s)
